@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "watchify ./index.js -o assets/bundle.js",
-    "build": "NODE_ENV=production browserify ./index.js | uglifyjs -c -m > assets/bundle.js"
+    "build": "NODE_ENV=production node_modules/.bin/browserify ./index.js | node_modules/.bin/uglifyjs -c -m > assets/bundle.js"
   },
   "browserify": {
     "transform": [
@@ -15,7 +15,7 @@
       ]
     ]
   },
-  "author": "Bobby Sudekum",
+  "author": "Jack Reed",
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.1.4",
