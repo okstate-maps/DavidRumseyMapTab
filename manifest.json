@@ -1,14 +1,14 @@
 {
-  "name": "David Rumsey Map Collection - MapTab",
-  "description": "A tab extension for viewing the current date and time with a random map from the David Rumsey Map Collection",
-  "short_name": "DRMC - MapTab",
-  "version": "0.4.1",
+  "name": "Oklahoma State Digital Collections Tab",
+  "description": "A tab extension for viewing the current date and time with a random map from the Oklahoma State University Library Digital Collections",
+  "short_name": "OSU Tab",
+  "version": "0.3",
   "incognito": "split",
   "offline_enabled": true,
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "content_security_policy": "script-src 'self' http://*.stanford.edu/*; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://*.oclc.org/*; object-src 'self'",
   "icons": {
     "16": "assets/images/icon16.png",
     "48": "assets/images/icon48.png",
