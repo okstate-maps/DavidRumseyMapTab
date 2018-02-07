@@ -1,9 +1,9 @@
 {
   "name": "Oklahoma State Digital Collections Tab",
-  "description": "A tab extension for viewing the current date and time with a random map from the Oklahoma State University Library Digital Collections",
+  "description": "Make your new tabs display the current date and time with an item from the Oklahoma State University Library Digital Collections!",
   "short_name": "OSU Tab",
-  "version": "0.3",
-  "incognito": "split",
+  "version": "0.4",
+  "incognito": "spanning",
   "offline_enabled": true,
   "chrome_url_overrides": {
     "newtab": "index.html"
