@@ -2,13 +2,18 @@
   "name": "Oklahoma State Digital Collections Tab",
   "description": "Make your new tabs display the current date and time with an item from the Oklahoma State University Library Digital Collections!",
   "short_name": "OSU Tab",
-  "version": "0.4",
+  "applications": {
+    "gecko": {
+     "strict_min_version": "57.0"
+    }
+  },
+  "version": "0.6",
   "incognito": "spanning",
   "offline_enabled": true,
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "content_security_policy": "script-src 'self' https://*.oclc.org/*; object-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "icons": {
     "16": "assets/images/icon16.png",
     "48": "assets/images/icon48.png",
