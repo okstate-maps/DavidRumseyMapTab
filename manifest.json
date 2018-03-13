@@ -7,7 +7,7 @@
      "strict_min_version": "57.0"
     }
   },
-  "version": "0.7",
+  "version": "0.7.1",
   "incognito": "spanning",
   "offline_enabled": true,
   "chrome_url_overrides": {
